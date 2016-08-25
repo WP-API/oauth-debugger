@@ -1,0 +1,92 @@
+body {
+	background: #F4EFE6;
+	margin: 0;
+}
+
+h1 {
+	font-size: 24px;
+	text-align: center;
+}
+
+h3 {
+	margin-top: 50px;
+}
+
+.App {
+	width: 70%;
+	background: #fff;
+	padding: 10px;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+
+form {
+
+}
+
+form label {
+	display: block;
+	font-size: 14px;
+	margin-bottom: 5px;
+}
+
+form input,
+form .input-with-preceding-text {
+	padding: 5px;
+	width: 100%;
+	box-sizing: border-box;
+	font-size: 16px;
+	border: 1px solid #ccc;
+}
+
+form .input-with-preceding-text {
+	display: flex;
+}
+
+form .input-with-preceding-text input {
+	border: none;
+	outline: none;
+	padding: 0;
+	width: auto;
+	flex: 1;
+}
+
+form .input-with-preceding-text span {
+	color: #666;
+}
+
+button {
+	height: 40px;
+	line-height: 33px;
+	padding-left: 16px;
+	padding-right: 16px;
+	border: 2px solid #ED5A24;
+	border-radius: 20px;
+	color: #ED5A24;
+	font-size: 16px;
+	background: none;
+	margin-right: 10px;
+	outline: none;
+}
+
+button[disabled] {
+	opacity: 0.5;
+}
+
+pre {
+	padding: 10px;
+	background: #ffe3d9;
+	border-radius: 2px;
+	white-space: pre-wrap;
+}
+
+p.description {
+	color: #666;
+	font-size: 14px;
+}
+
+.error {
+	padding: 10px;
+	background: #DD4A68;
+	border-radius: 2px;
+}
