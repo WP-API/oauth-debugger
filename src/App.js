@@ -6,7 +6,7 @@ import './App.css'
 export default class App extends Component {
 	constructor() {
 		super()
-		let savedState = JSON.parse( localStorage.getItem( 'stdate' ) )
+		let savedState = JSON.parse( localStorage.getItem( 'state' ) )
 		this.state = {
 			url: '',
 			oauthKey: '',
